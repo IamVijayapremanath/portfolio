@@ -2,25 +2,28 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import project1 from "../../assets/videos/project-1.mp4";
+import project2 from "../../assets/videos/project-2.mp4";
+import project3 from "../../assets/videos/project-3.mp4";
 
 const projects = [
   {
     name: "john lemon's haunted jaunt game",
     align: "right",
-    video: "/videos/project-1.mp4",
+    video: project1,
     link: "https://github.com/IamVijayapremanath/Voice-Controlled-Escape-Room-Game.git",
   },
   {
     name: "Multiplayer Tank game",
     align: "left",
-    video: "/videos/project-2.mp4",
+    video: project2,
     link: "https://github.com/IamVijayapremanath/Multiplayer-Tank-game.git",
   },
 
   {
     name: "Multiplayer Paramapatham board game",
     align: "right",
-    video: "/videos/project-3.mp4",
+    video: project3,
     link: "https://github.com/IamVijayapremanath/Paramapatham_board_game.git",
   }
 
